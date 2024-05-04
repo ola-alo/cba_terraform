@@ -24,7 +24,7 @@ resource "aws_security_group" "cba_tf_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
   tags = {
-    name = "CBAterraformSG-2"
+    name = "CBAterraformSG"
   }
 
 }
@@ -41,7 +41,7 @@ resource "aws_instance" "cba_tf_instance" {
   user_data = file("install_apache.sh")
 
   tags = {
-    Name = "CBATerraformInstance-2"
+    Name = "CBATerraformInstance"
   }
 
 }
