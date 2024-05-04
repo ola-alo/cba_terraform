@@ -24,7 +24,7 @@ resource "aws_security_group" "cba_tf_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
   tags = {
-    name = "CBAterraformSG"
+    name = "CBAterraformSG-2"
   }
 
 }
