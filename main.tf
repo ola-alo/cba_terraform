@@ -41,7 +41,7 @@ resource "aws_instance" "cba_tf_instance" {
   user_data = file("install_apache.sh")
 
   tags = {
-    Name = "CBATerraformInstance"
+    Name = "CBATerraformInstance-2"
   }
 
 }
